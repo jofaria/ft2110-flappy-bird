@@ -5,8 +5,8 @@ class Game {
     this.bg.src = "./images/bg.png";
     this.bird = new Bird();
     this.pipeArr = [new Pipe("./images/obstacle_top.png", 0)];
-    this.gapBetweenPipes = 100;
-    this.pipeAppearingDistance = 400;
+    this.gapBetweenPipes = 150;
+    this.pipeAppearingDistance = 350;
     this.isGameOver = false;
   }
 

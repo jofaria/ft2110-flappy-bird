@@ -4,7 +4,7 @@ class Pipe {
     this.image = new Image();
     this.image.src = srcImage;
     this.width = 100;
-    this.height = canvas.height * 0.75;
+    this.height = canvas.height * 0.6;
     this.x = canvas.width;
     this.y = yPos;
   }
